@@ -1,5 +1,5 @@
 # Terraform_code_of_private_AKS_cluster_for_adding_application_gateway
-Using this techhub template we can create Azure private kubernetes cluster with application gateway using terraform module.
+Using this techhub template we can create an Azure private kubernetes cluster with application gateway using terraform module.
 ## Prerequisites
 
 Before you can use this Terraform module, you will need to have the following installed:
