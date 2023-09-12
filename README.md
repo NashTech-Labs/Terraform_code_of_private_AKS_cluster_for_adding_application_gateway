@@ -16,7 +16,7 @@ To use this Terraform module, follow these steps:
 Clone this Git repo to your local machine.
 
 ```bash
-git clone 
+git clone git@github.com:NashTech-Labs/Terraform_code_of_private_AKS_cluster_for_adding_application_gateway.git
 ```
 
 Change into the directory containing the module.
@@ -153,13 +153,3 @@ Specifies the name of the log analytics solution to be deployed .
 ### role based access control enabled
 
 Role-based access control (Azure RBAC) is a system that provides fine-grained access management of Azure resources.
-
-### private cluster enabled
-
-By using a private cluster, you can ensure network traffic between your API server and your node pools remains on the private network only.
-
-
-
-### Kubeconfig
-
-This module also produces a local `kubeconfig` file that can be used to connect to the Kubernetes cluster using the command `kubectl --kubeconfig=<PATH_TO_KUBECONFIG>`. 
