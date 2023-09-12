@@ -114,12 +114,6 @@ variable "aks_product" {
 }
 
 
-
-# variable "aks_admin_group_object_ids" {
-#   description = "aks admin group ids"
-#   type        = list(string)
-# }
-
 # https://learn.microsoft.com/en-us/azure/aks/private-clusters#disable-a-public-fqdn
 variable "private_cluster_public_fqdn_enabled" {
   type        = bool
